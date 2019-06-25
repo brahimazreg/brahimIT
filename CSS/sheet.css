@@ -1,0 +1,81 @@
+
+
+/* menu cod bar  */
+body {
+    background-color:#CCC;
+    font-family: Tahoma , arial;
+   }
+
+    /*  fieldset code */
+    fieldset{
+        background-color: #FFF;
+        border: solid 1px black;
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    legend{
+     background-color: #FFF;
+     border: solid 1px black;
+     padding: 10px;
+    }
+    .contact {
+        padding: 30px;
+        text-align: center;
+        font-size: 30px;
+    }
+   /* div menu-bar*/
+   .menu-bar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+       
+        
+     
+   }
+   ul {
+     float: right;
+     padding-top: 10px;
+     margin: 0px 200px 0px 0px;
+   }
+   li {
+    
+       display: inline-block;
+       padding-right: 20px;
+         
+   }
+   li a {
+    color: white;
+   }
+   li a:hover{
+    color: red;
+   }
+   
+   .welcome {
+        height:400px;
+        
+        background-image:url("../images/welcome.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 50px;
+    }
+   .fouter {
+    
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    background-color:rgb(255, 183, 0);
+    color: blue;
+    border-radius: 10px;
+   }
+   /*
+  .bottom {
+      color: red;
+      width: 400px;
+      margin: 20px 100px 20px 500px;
+      
+      border:solid 1px black;
+  }
+    */
+   
